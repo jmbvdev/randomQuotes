@@ -18,7 +18,7 @@ const QuoteBox = () => {
 
     return (
         <div className='quote'>
-            <p style={{color: background}}><i class="fa-solid fa-quote-left"></i>{quote.quote}</p>
+            <p style={{color: background}}><i className="fa-solid fa-quote-left"></i>{quote.quote}</p>
             <h4 style={{color: background}}>{quote.author}</h4>
             <Button getRandomQuote={getRandomQuote} background={background}/>
         </div>
